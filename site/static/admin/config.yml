@@ -9,7 +9,7 @@ collections:
     folder: 'content/blog' #file origin
     create: true
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: '標題', name: 'title', widget: 'string' }
       - { label: '發布日期', name: 'date', widget: 'datetime', required: false }
@@ -18,12 +18,12 @@ collections:
       - { label: '圖片', name: 'image', widget: 'image' }
       - { label: '標籤', name: 'categories', widget: 'list',hint: '使用逗號隔開' }
       - { label: '內容', name: 'body', widget: 'markdown' }
-  - name: 'main' #using inroot
-    label: '主要檔案' #UI to see
+  - name: 'others' #using inroot
+    label: '其他頁面' #UI to see
     folder: 'content' #file origin
     create: true
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: '標題', name: 'title', widget: 'string' }
       - { label: '發布日期', name: 'date', widget: 'datetime', required: false }
