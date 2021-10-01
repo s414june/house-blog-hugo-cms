@@ -6,7 +6,7 @@ public_folder: /images
 collections:
   - name: 'blog' #using inroot
     label: '部落格' #UI to see
-    folder: 'content/blog' #file origin
+    folder: 'site/content/blog' #file origin
     create: true
     editor:
       preview: true
@@ -20,7 +20,7 @@ collections:
       - { label: '內容', name: 'body', widget: 'markdown' }
   - name: 'others' #using inroot
     label: '其他頁面' #UI to see
-    folder: 'content' #file origin
+    folder: 'site/content' #file origin
     create: true
     editor:
       preview: true
