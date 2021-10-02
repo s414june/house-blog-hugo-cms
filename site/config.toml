@@ -63,32 +63,32 @@ link = "plugins/search/search.js"
 
 [[menu.main]]
 name = "惠宇新建案"
-url = "blog/惠宇新建案.md"
+url = "blog/惠宇新建案"
 weight = 1
 
 [[menu.main]]
 name = "北屯機捷特區"
-url = "blog/北屯機捷特區.md"
+url = "blog/北屯機捷特區"
 weight = 2
 
 [[menu.main]]
 name = "水湳經貿園區"
-url = "blog/水湳經貿園區.md"
+url = "blog/水湳經貿園區"
 weight = 3
 
 [[menu.main]]
 name = "台中14期"
-url = "blog/台中14期.md"
+url = "blog/台中14期"
 weight = 4
 
 [[menu.main]]
 name = "北屯單元12"
-url = "blog/北屯單元12.md"
+url = "blog/北屯單元12"
 weight = 5
 
 [[menu.main]]
 name = "西屯逢甲12期"
-url = "blog/西屯逢甲12期.md"
+url = "blog/西屯逢甲12期"
 weight = 6
 
 # [[menu.main]]
