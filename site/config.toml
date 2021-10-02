@@ -62,9 +62,34 @@ link = "plugins/search/search.js"
 #   url = "homepage/home-2"
 
 [[menu.main]]
-name = "關於建奕"
-url = "about"
+name = "惠宇新建案"
+url = "blog/惠宇新建案.md"
 weight = 1
+
+[[menu.main]]
+name = "北屯機捷特區"
+url = "blog/北屯機捷特區.md"
+weight = 2
+
+[[menu.main]]
+name = "水湳經貿園區"
+url = "blog/水湳經貿園區.md"
+weight = 3
+
+[[menu.main]]
+name = "台中14期"
+url = "blog/台中14期.md"
+weight = 4
+
+[[menu.main]]
+name = "北屯單元12"
+url = "blog/北屯單元12.md"
+weight = 5
+
+[[menu.main]]
+name = "西屯逢甲12期"
+url = "blog/西屯逢甲12期.md"
+weight = 6
 
 # [[menu.main]]
 # name = "Contact"
@@ -90,6 +115,7 @@ bio = "我是邱建奕。"
 # Contact info
 mobile = "0922757946"
 email = "exmaple@ymail.com"
+line = "chl6505"
 address = "台中市北屯區"
 # Contact Form Action
 contact_form_action = "#"
@@ -102,13 +128,19 @@ copyright = "&copy; 2022 建奕官方網站 | 電話：0922757946 [邱建奕](ht
 # access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
 
 # cookies
-# [params.cookies]
-# enable = true
-# expire_days = 2
+[params.cookies]
+enable = true
+expire_days = 2
 
 # social site
 [[params.social]]
-icon = "ti-facebook"
+title = "建奕的facebook"
+icon = "images/facebook.png"
+link = "https://www.facebook.com/peter.chiu.3576/"
+
+[[params.social]]
+title = "建奕的line"
+icon = "images/line.png"
 link = "https://www.facebook.com/peter.chiu.3576/"
 
 # [[params.social]]
