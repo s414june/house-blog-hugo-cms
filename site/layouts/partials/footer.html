@@ -18,11 +18,11 @@
                     <h6>聯絡資訊</h6>
                     <ul class="list-unstyled">
                         {{ if .Site.Params.mobile }}
-                        <li class="font-secondary text-dark">電話 : {{ .Site.Params.mobile | markdownify }}</li>
+                        <li class="font-secondary text-dark">電話 : <a href="tel:{{ .Site.Params.mobile | safeURL }}" target="_blank">{{ .Site.Params.mobile | markdownify }}</a></li>
                         {{ end }} {{ if .Site.Params.email }}
                         <li class="font-secondary text-dark">Email : {{ .Site.Params.email | markdownify }}</li>
                         {{ end }} {{ if .Site.Params.line }}
-                        <li class="font-secondary text-dark">line : {{ .Site.Params.line | markdownify }}</li>
+                        <li class="font-secondary text-dark">line : <a href="{{ .Site.Params.lineUrl | safeURL }}" target="_blank">{{ .Site.Params.line | markdownify }}</a></li>
                         {{ end }}
                     </ul>
                     {{ end }}
@@ -37,7 +37,7 @@
                     <ul class="list-inline d-inline-block">
                         {{ range site.Params.social }}
                         <li class="list-inline-item">
-                            <a href="{{ .link | safeURL }}" class="text-dark">
+                            <a href="{{ .link | safeURL }}" class="text-dark" target="_blank">
                                 <img src="{{.icon | absURL }}" alt="{{.title}}" style="width: 20px;">
                             </a>
                         </li>

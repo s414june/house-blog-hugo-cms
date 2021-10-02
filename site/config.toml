@@ -105,8 +105,6 @@ weight = 7
 [params]
 logo = "images/logo.png"
 home = "Home"
-# theme layout ( two layout is available, "1" and "2" )
-layout = "1"
 # Meta data
 description = "我是邱建奕"
 # Preloader
@@ -121,11 +119,12 @@ bio = "我是邱建奕。"
 mobile = "0922757946"
 email = "chl650513@yahoo.com.tw"
 line = "chl6505"
+lineUrl = "https://line.me/ti/p/Q0JNl2h3dW"
 address = "台中市北屯區"
 # Contact Form Action
 contact_form_action = "#"
 # copyright
-copyright = "&copy; 2022 建奕官方網站 | 電話：0922757946 | Line: [chl6505](https://line.me/ti/p/Q0JNl2h3dW) | 臉書：[邱建奕](https://www.facebook.com/peter.chiu.3576/)"
+copyright = "&copy; 2022 建奕官方網站 | 電話：[0922757946](tel:0922757946) | Line: [chl6505](https://line.me/ti/p/Q0JNl2h3dW) | 臉書：[邱建奕](https://www.facebook.com/peter.chiu.3576/)"
 
 # Instagram feed
 # [params.instafeed]
