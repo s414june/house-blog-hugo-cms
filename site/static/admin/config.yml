@@ -4,7 +4,7 @@ backend:
 media_folder: site/static/images
 public_folder: /images
 collections:
-  - name: 'blog' #using inroot
+  - name: 'blog' #using in root
     label: '部落格' #UI to see
     folder: 'site/content/blog' #file origin
     create: true
@@ -19,7 +19,7 @@ collections:
       - { label: '文章分類', name: 'categories', widget: 'string',hint: '文章的主題分類，如：北屯建案' }
       - { label: '標籤', name: 'tags', widget: 'list',hint: '使用逗號隔開' }
       - { label: '內容', name: 'body', widget: 'markdown' }
-  - name: 'others' #using inroot
+  - name: 'others' #using in root
     label: '其他頁面' #UI to see
     files:
       - file: "site/content/about.md"
@@ -39,3 +39,13 @@ collections:
         - { label: '描述', name: 'description', widget: 'string' }
         - { label: '圖片', name: 'image', widget: 'image', required: false  }
         - { label: '內容', name: 'body', widget: 'markdown' , required: false }
+  # - name: 'home' #using in root
+  #   label: '首頁' #UI to see
+  #   files:
+  #     - file: "site/config.toml"
+  #       label: "首頁"
+  #       name: "home"
+  #       fields:
+  #       - { label: 'menu', name: 'title', widget: 'string' }
+  #       - { label: '個人資料', name: 'description', widget: 'string' }
+  #       - { label: '社群軟體', name: 'image', widget: 'image', required: false  }

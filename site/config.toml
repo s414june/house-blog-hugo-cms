@@ -91,6 +91,11 @@ name = "西屯逢甲12期"
 url = "blog/西屯逢甲12期"
 weight = 6
 
+[[menu.main]]
+name = "聯絡建奕"
+url = "about"
+weight = 7
+
 # [[menu.main]]
 # name = "Contact"
 # url = "contact"
@@ -114,13 +119,13 @@ author_image = "images/banner-img.png"
 bio = "我是邱建奕。"
 # Contact info
 mobile = "0922757946"
-email = "exmaple@ymail.com"
+email = "chl650513@yahoo.com.tw"
 line = "chl6505"
 address = "台中市北屯區"
 # Contact Form Action
 contact_form_action = "#"
 # copyright
-copyright = "&copy; 2022 建奕官方網站 | 電話：0922757946 [邱建奕](https://www.facebook.com/peter.chiu.3576/)"
+copyright = "&copy; 2022 建奕官方網站 | 電話：0922757946 | [邱建奕](https://www.facebook.com/peter.chiu.3576/)"
 
 # Instagram feed
 # [params.instafeed]
@@ -128,9 +133,9 @@ copyright = "&copy; 2022 建奕官方網站 | 電話：0922757946 [邱建奕](ht
 # access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
 
 # cookies
-[params.cookies]
-enable = true
-expire_days = 2
+# [params.cookies]
+# enable = true
+# expire_days = 2
 
 # social site
 [[params.social]]
@@ -141,7 +146,7 @@ link = "https://www.facebook.com/peter.chiu.3576/"
 [[params.social]]
 title = "建奕的line"
 icon = "images/line.png"
-link = "https://www.facebook.com/peter.chiu.3576/"
+link = "https://line.me/ti/p/Q0JNl2h3dW"
 
 # [[params.social]]
 # icon = "ti-twitter-alt"
