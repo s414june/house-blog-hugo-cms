@@ -28,7 +28,7 @@
                     {{ end }}
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-                    <h6>關注我</h6>
+                    <h6>關注建奕</h6>
                     <!-- <ul class="list-inline d-inline-block">
                         {{ range site.Params.social }}
                         <li class="list-inline-item"><a href="{{ .link | safeURL }}" class="text-dark"><i class="{{ .icon }}"></i></a></li>
@@ -38,7 +38,6 @@
                         {{ range site.Params.social }}
                         <li class="list-inline-item">
                             <a href="{{ .link | safeURL }}" class="text-dark">
-                                <!-- <i class="{{ .icon }}"></i> -->
                                 <img src="{{.icon | absURL }}" alt="{{.title}}" style="width: 20px;">
                             </a>
                         </li>
@@ -61,8 +60,8 @@
 
 
 <!-- cookie -->
-{{ if site.Params.cookies.enable }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<!-- {{ if site.Params.cookies.enable }} -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
     This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-outline-light ml-2">I Accept</span>
 </div>
@@ -84,10 +83,10 @@
             };
         }
     })(jQuery);
-</script>
+</script> -->
 
 <!-- cookie style -->
-<style>
+<!-- <style>
     .cookie-box {
         position: fixed;
         left: 0;
@@ -105,4 +104,4 @@
         display: none;
     }
 </style>
-{{ end }}
+{{ end }} -->
