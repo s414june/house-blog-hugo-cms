@@ -1,7 +1,7 @@
 # default config
 baseurl = "/"
 languageCode = "zh-tw"
-title = "Parsa Hugo | Personal Blog Template"
+title = "台中北屯房地產達人邱建奕 | 台中買房找建奕"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
@@ -62,14 +62,14 @@ link = "plugins/search/search.js"
 #   url = "homepage/home-2"
 
 [[menu.main]]
-name = "About"
+name = "關於建奕"
 url = "about"
 weight = 1
 
-[[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 2
+# [[menu.main]]
+# name = "Contact"
+# url = "contact"
+# weight = 2
 
 # deult parameter
 [params]
@@ -78,23 +78,23 @@ home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"
 # Meta data
-description = "This is meta description"
+description = "我是邱建奕"
 # Preloader
 preloader = true
 # search
 search = true
 # about author
-author = "John Doe"
+author = "邱建奕"
 author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+bio = "我是邱建奕。"
 # Contact info
-mobile = "+90 000 333 22"
+mobile = "0922757946"
 email = "exmaple@ymail.com"
-address = "6 rip carl Avenue CA 90733"
+address = "台中市北屯區"
 # Contact Form Action
 contact_form_action = "#"
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](https://themefisher.com)"
+copyright = "&copy; 2022 建奕官方網站 | 電話：0922757946 [邱建奕](https://www.facebook.com/peter.chiu.3576/)"
 
 # Instagram feed
 # [params.instafeed]
@@ -109,16 +109,16 @@ copyright = "Copyright &copy; 2020 a theme by [themefisher.com](https://themefis
 # social site
 [[params.social]]
 icon = "ti-facebook"
-link = "https://facebook.com/themefisher"
+link = "https://www.facebook.com/peter.chiu.3576/"
 
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
+# [[params.social]]
+# icon = "ti-twitter-alt"
+# link = "#"
 
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
+# [[params.social]]
+# icon = "ti-linkedin"
+# link = "#"
 
-[[params.social]]
-icon = "ti-github"
-link = "#"
+# [[params.social]]
+# icon = "ti-github"
+# link = "#"
