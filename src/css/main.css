@@ -74,9 +74,7 @@
 @import './imports/_styles';
 @import './imports/_buttons';
 @import './imports/_svg';
-
-/* @import './imports/_cms'; */
-
+@import './imports/_cms';
 
 /*自定義*/
 
