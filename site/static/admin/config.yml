@@ -1,8 +1,14 @@
 backend:
   name: git-gateway
-  
+local_backend: true
+
 media_folder: site/static/images
 public_folder: /images
+media_library:
+  name: uploadcare
+  config:
+    publicKey: demopublickey
+  
 collections:
   - name: 'blog' #using in root
     label: '部落格' #UI to see
