@@ -9,7 +9,8 @@ import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../c
 // import ProductsPreview from "./cms-preview-templates/products";
 // import ValuesPreview from "./cms-preview-templates/values";
 // import ContactPreview from "./cms-preview-templates/contact";
-import BlogPreview from "./cms-preview-templates/blog";
+import PostPreview from "./cms-preview-templates/blog";
+import FeaturedPreview from "./cms-preview-templates/blog";
 import AboutPreview from "./cms-preview-templates/about";
 
 CMS.registerPreviewStyle(styles, { raw: true });
@@ -18,6 +19,7 @@ CMS.registerPreviewStyle(styles, { raw: true });
 // CMS.registerPreviewTemplate("products", ProductsPreview);
 // CMS.registerPreviewTemplate("values", ValuesPreview);
 // CMS.registerPreviewTemplate("contact", ContactPreview);
-CMS.registerPreviewTemplate("blog", BlogPreview);
+CMS.registerPreviewTemplate("post", PostPreview);
+CMS.registerPreviewTemplate("featured", FeaturedPreview);
 CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.init();
