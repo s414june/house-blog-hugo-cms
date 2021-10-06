@@ -45,56 +45,67 @@ link = "plugins/search/mark.js"
 link = "plugins/search/search.js"
 
 # navigation
-# [[menu.main]]
-# name = "Homepage"
-# url = ""
-# weight = 1
-# hasChildren = true
-
-#   [[menu.main]]
-#   parent = "Homepage"
-#   name = "Homepage 1"
-#   url = "homepage/home-1"
-
-#   [[menu.main]]
-#   parent = "Homepage"
-#   name = "Homepage 2"
-#   url = "homepage/home-2"
-
 [[menu.main]]
-name = "惠宇新建案"
-url = "blog/惠宇新建案"
+name = "北屯區"
+url = ""
 weight = 1
+hasChildren = true
+
+  [[menu.main]]
+  parent = "北屯區"
+  name = "機捷特區"
+  url = "featured/北屯機捷特區"
+
+  [[menu.main]]
+  parent = "北屯區"
+  name = "十二單元"
+  url = "featured/北屯單元12"
+  
+  [[menu.main]]
+  parent = "北屯區"
+  name = "十期廍子"
+  url = "featured/北屯單元12"
+  
+  [[menu.main]]
+  parent = "北屯區"
+  name = "十一期"
+  url = "featured/北屯單元12"
+  
+  [[menu.main]]
+  parent = "北屯區"
+  name = "十四期"
+  url = "featured/台中14期"
+  
+  [[menu.main]]
+  parent = "北屯區"
+  name = "水湳經貿園區"
+  url = "featured/水湳經貿園區"
+  
+  [[menu.main]]
+  parent = "北屯區"
+  name = "北屯舊商圈"
+  url = "featured/北屯單元12"
 
 [[menu.main]]
-name = "北屯機捷特區"
-url = "blog/北屯機捷特區"
+name = "北區"
+url = "featured/北屯單元12"
 weight = 2
 
 [[menu.main]]
-name = "水湳經貿園區"
-url = "blog/水湳經貿園區"
+name = "潭子區"
+url = "featured/北屯單元12"
 weight = 3
 
 [[menu.main]]
-name = "台中14期"
-url = "blog/台中14期"
+name = "太平區"
+url = "featured/北屯單元12"
 weight = 4
-
-[[menu.main]]
-name = "北屯單元12"
-url = "blog/北屯單元12"
-weight = 5
-
-[[menu.main]]
-name = "西屯逢甲12期"
-url = "blog/西屯逢甲12期"
-weight = 6
 
 [[menu.main]]
 name = "關於建奕"
 url = "about"
-weight = 7
+weight = 5
+
 
 # [[menu.main]]
 # name = "Contact"
@@ -124,7 +135,8 @@ address = "台中市北屯區"
 # Contact Form Action
 contact_form_action = "#"
 # copyright
-copyright = "&copy; 2022 建奕官方網站 | 電話：[0922757946](tel:0922757946) | Line: [chl6505](https://line.me/ti/p/Q0JNl2h3dW) | 臉書：[邱建奕](https://www.facebook.com/peter.chiu.3576/)"
+copyright = "&copy; 2022 建奕官方網站 | 電話：[0922757946](tel:0922757946) | Line: [chl6505](https://line.me/ti/p/Q0JNl2h3dW) | 種籽地產團隊"
+copyright_detail = "(104)中市經紀字 第01596號 林軍豪"
 
 # Instagram feed
 # [params.instafeed]
