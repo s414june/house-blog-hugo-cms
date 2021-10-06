@@ -33,14 +33,14 @@ collections:
         - { label: '描述', name: 'description', widget: 'string' }
         - { label: '圖片', name: 'image', widget: 'image', required: false  }
         - { label: '內容', name: 'body', widget: 'markdown' , required: false }
-      - file: "site/content/contact.md"
-        label: "聯繫"
-        name: "contact"
-        fields:
-        - { label: '標題', name: 'title', widget: 'string' }
-        - { label: '描述', name: 'description', widget: 'string' }
-        - { label: '圖片', name: 'image', widget: 'image', required: false  }
-        - { label: '內容', name: 'body', widget: 'markdown' , required: false }
+      # - file: "site/content/contact.md"
+      #   label: "聯繫"
+      #   name: "contact"
+      #   fields:
+      #   - { label: '標題', name: 'title', widget: 'string' }
+      #   - { label: '描述', name: 'description', widget: 'string' }
+      #   - { label: '圖片', name: 'image', widget: 'image', required: false  }
+      #   - { label: '內容', name: 'body', widget: 'markdown' , required: false }
   # - name: 'home' #using in root
   #   label: '首頁' #UI to see
   #   files:

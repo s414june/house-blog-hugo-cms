@@ -92,7 +92,7 @@ url = "blog/西屯逢甲12期"
 weight = 6
 
 [[menu.main]]
-name = "聯絡建奕"
+name = "關於建奕"
 url = "about"
 weight = 7
 
