@@ -269,6 +269,9 @@ a:hover {
 a.text-dark:hover {
   color: #ff6f00 !important;
 }
+a.text-secondary:hover {
+  color: #ff8c33 !important;
+}
 
 .slick-slide {
   outline: 0;
