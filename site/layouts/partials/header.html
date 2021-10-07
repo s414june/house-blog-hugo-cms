@@ -9,12 +9,17 @@
             <ul class="navbar-nav ml-auto">
                 {{ range site.Menus.main }} {{ if .HasChildren }}
                 <li class="nav-item dropdown">
-                    <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMenuButton{{ .Weight }}">
             {{ .Name }}
-          </a>
-                    <div class="dropdown-menu">
+                    </a>
+                    <div class="dropdown-menu py-4" aria-labelledby="dropdownMenuButton{{ .Weight }}">
                         {{ range .Children }}
-                        <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a> {{ end }}
+                        <ul class="pb-2">
+                            <li><a href="{{ .URL | absURL }}" class="text-dark">{{ .Name }}</a></li>
+                            <li class="pl-2"><a href="#" class="text-secondary">建案一</a></li>
+                            <li class="pl-2"><a href="#" class="text-secondary">建案二</a></li>
+                        </ul>
+                        {{ end }}
                     </div>
                 </li>
                 {{ else }}
