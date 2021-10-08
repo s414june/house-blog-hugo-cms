@@ -3,7 +3,8 @@
   <title>{{ with .Title }}{{ . }}{{ else }}{{ with site.Title }}{{ . }}{{ end }}{{ end }}</title>
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
@@ -21,9 +22,10 @@
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   
-  {{ with .Params.image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
+  {{ "<!--Image-->" | safeHTML }}
+  <meta property="og:image" content="{{ `images/logo.png` | absURL }}" />
+  
+  {{ "<!--opengraph-->" | safeHTML }}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
 
