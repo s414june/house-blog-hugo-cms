@@ -9,8 +9,54 @@
 </head>
 
 <body>
-    錯誤：404<br> 請檢查您輸入的網址是否正確。
-    <p onclick="history.forward()">回到上一頁</p>
+    <header class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="{{site.BaseURL}}"><img class="img-fluid" src="{{ site.Params.logo | absURL }}"
+                    alt="{{site.Title}}"></a>
+        </nav>
+    </header>
+    <section>
+        <p>錯誤：404</p>
+        <p>請檢查您輸入的網址是否正確。</p>
+        <p>
+            <a onclick="history.go(-1)" style="cursor: pointer; text-decoration:none;" href="#">回到上一頁</a>
+        </p>
+    </section>
 </body>
+<style>
+    body {
+        margin: 0;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 10px 40px;
+        background-color: #fff;
+    }
+
+    .navbar {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+    }
+
+    section {
+        padding: 10px 40px;
+    }
+
+    a {
+        color: #ff6f00;
+    }
+</style>
 
 </html>
