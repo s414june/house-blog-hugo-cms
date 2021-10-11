@@ -1,90 +1,128 @@
-# default config
-baseurl = "/"
 languageCode = "zh-tw"
-title = "台中北屯房地產達人邱建奕 | 台中買房找建奕"
 theme = "parsa-hugo"
 summaryLength = "10"
+googleAnalytics = ""
 paginate = 6
-# google analytics
-googleAnalytics = "" # example : UA-123-45
+title = "台中北屯房地產達人邱建奕 | 台中買房找建奕"
+baseurl = "/"
 
-# output
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+[params]
+mobile = "0922757946"
+author_image = "images/banner-img.png"
+copyright = "&copy; 2022 建奕官方網站 | 電話：[0922757946](tel:0922757946) | Line: [chl6505](https://line.me/ti/p/Q0JNl2h3dW) | 種籽地產團隊"
+bio = "我是邱建奕。"
+search = true
+copyright_detail = "(104)中市經紀字 第01596號 林軍豪"
+author = "邱建奕"
+logo = "images/logo.png"
+contact_form_action = "#"
+address = "台中市北屯區"
+line = "chl6505"
+preloader = true
+lineUrl = "https://line.me/ti/p/Q0JNl2h3dW"
+email = "chl650513@yahoo.com.tw"
+description = "買房就找建奕！種籽地產團隊的房仲好手邱建奕，給你買房最佳的建議，讓你投資有益，買得滿意、住得愜意，家人開心、生活順心！"
+home = "Home"
 
-# CSS Plugins
+[params.plugins]
+
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
+
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
+
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
 
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
+
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
+
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
+
 [[params.plugins.js]]
 link = "plugins/headroom/headroom.js"
+
 [[params.plugins.js]]
 link = "plugins/instafeed/instafeed.min.js"
+
 [[params.plugins.js]]
 link = "plugins/masonry/masonry.js"
+
 [[params.plugins.js]]
 link = "plugins/reading-time/readingTime.min.js"
+
 [[params.plugins.js]]
 link = "plugins/smooth-scroll/smooth-scroll.js"
+
 [[params.plugins.js]]
 link = "plugins/search/fuse.min.js"
+
 [[params.plugins.js]]
 link = "plugins/search/mark.js"
+
 [[params.plugins.js]]
 link = "plugins/search/search.js"
 
-# navigation
+[[params.social]]
+title = "建奕的facebook"
+icon = "images/facebook.png"
+link = "https://www.facebook.com/peter.chiu.3576/"
+
+[[params.social]]
+title = "建奕的line"
+icon = "images/line.png"
+link = "https://line.me/ti/p/Q0JNl2h3dW"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[menu]
+
 [[menu.main]]
 name = "北屯區"
 url = ""
 weight = 1
 hasChildren = true
 
-  [[menu.main]]
-  parent = "北屯區"
-  name = "機捷特區"
-  url = "featured/北屯機捷特區"
+[[menu.main]]
+parent = "北屯區"
+name = "機捷特區"
+url = "featured/北屯機捷特區"
 
-  [[menu.main]]
-  parent = "北屯區"
-  name = "十二單元"
-  url = "featured/北屯單元12"
-  
-  [[menu.main]]
-  parent = "北屯區"
-  name = "十期廍子"
-  url = "featured/北屯單元12"
-  
-  [[menu.main]]
-  parent = "北屯區"
-  name = "十一期"
-  url = "featured/北屯單元12"
-  
-  [[menu.main]]
-  parent = "北屯區"
-  name = "十四期"
-  url = "featured/台中14期"
-  
-  [[menu.main]]
-  parent = "北屯區"
-  name = "水湳經貿園區"
-  url = "featured/水湳經貿園區"
-  
-  [[menu.main]]
-  parent = "北屯區"
-  name = "北屯舊商圈"
-  url = "featured/北屯單元12"
+[[menu.main]]
+parent = "北屯區"
+name = "十二單元"
+url = "featured/北屯單元12"
+
+[[menu.main]]
+parent = "北屯區"
+name = "十期廍子"
+url = "featured/北屯單元12"
+
+[[menu.main]]
+parent = "北屯區"
+name = "十一期"
+url = "featured/北屯單元12"
+
+[[menu.main]]
+parent = "北屯區"
+name = "十四期"
+url = "featured/台中14期"
+
+[[menu.main]]
+parent = "北屯區"
+name = "水湳經貿園區"
+url = "featured/水湳經貿園區"
+
+[[menu.main]]
+parent = "北屯區"
+name = "北屯舊商圈"
+url = "featured/北屯單元12"
 
 [[menu.main]]
 name = "北區"
@@ -105,68 +143,3 @@ weight = 4
 name = "關於建奕"
 url = "about"
 weight = 5
-
-
-# [[menu.main]]
-# name = "Contact"
-# url = "contact"
-# weight = 2
-
-# deult parameter
-[params]
-logo = "images/logo.png"
-home = "Home"
-# Meta data
-description = "買房就找建奕！種籽地產團隊的房仲好手邱建奕，給你買房最佳的建議，讓你投資有益，買得滿意、住得愜意，家人開心、生活順心！"
-# Preloader
-preloader = true
-# search
-search = true
-# about author
-author = "邱建奕"
-author_image = "images/banner-img.png"
-bio = "我是邱建奕。"
-# Contact info
-mobile = "0922757946"
-email = "chl650513@yahoo.com.tw"
-line = "chl6505"
-lineUrl = "https://line.me/ti/p/Q0JNl2h3dW"
-address = "台中市北屯區"
-# Contact Form Action
-contact_form_action = "#"
-# copyright
-copyright = "&copy; 2022 建奕官方網站 | 電話：[0922757946](tel:0922757946) | Line: [chl6505](https://line.me/ti/p/Q0JNl2h3dW) | 種籽地產團隊"
-copyright_detail = "(104)中市經紀字 第01596號 林軍豪"
-
-# Instagram feed
-# [params.instafeed]
-# enable = true
-# access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
-
-# cookies
-# [params.cookies]
-# enable = true
-# expire_days = 2
-
-# social site
-[[params.social]]
-title = "建奕的facebook"
-icon = "images/facebook.png"
-link = "https://www.facebook.com/peter.chiu.3576/"
-
-[[params.social]]
-title = "建奕的line"
-icon = "images/line.png"
-link = "https://line.me/ti/p/Q0JNl2h3dW"
-
-# [[params.social]]
-# icon = "ti-twitter-alt"
-# link = "#"
-
-# [[params.social]]
-# icon = "ti-linkedin"
-# link = "#"
-
-# [[params.social]]
-# icon = "ti-github"
-# link = "#"
